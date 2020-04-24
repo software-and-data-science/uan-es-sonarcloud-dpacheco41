@@ -1,0 +1,27 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=50405abc
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4192256 SPARSE "OWASP Broken Web Apps-cl1-s001.vmdk"
+RW 4192256 SPARSE "OWASP Broken Web Apps-cl1-s002.vmdk"
+RW 4192256 SPARSE "OWASP Broken Web Apps-cl1-s003.vmdk"
+RW 4192256 SPARSE "OWASP Broken Web Apps-cl1-s004.vmdk"
+RW 8192 SPARSE "OWASP Broken Web Apps-cl1-s005.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.geometry.cylinders = "1044"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "7c4dc2eb0f029b03bb80d49e50405abc"
+ddb.toolsInstallType = "2"
+ddb.toolsVersion = "7429"
+ddb.uuid = "60 00 C2 9e 91 da 2f c1-b9 07 d5 21 8e dc 5e 22"
+ddb.virtualHWVersion = "4"
